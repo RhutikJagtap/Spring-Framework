@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Mobile {
 	public static void main(String[] args) {
-		// manually created object
+	// manually created object
        	//Sim sim =new Vodaphone();
     	//sim.calling();
     	//sim.data();
