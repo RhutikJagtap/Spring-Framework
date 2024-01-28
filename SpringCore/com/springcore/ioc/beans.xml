@@ -1,1 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- Creating bean for Jio -->
+	<bean id="jio" class="com.seleniumspring.ioc.Jio"></bean>
+	
+	<!--Creating bean for Vodaphone-->
+	<bean id="voda" class="com.seleniumspring.ioc.Vodaphone"></bean>
+	
+	<!--Creating bean for Airtel-->
+	<bean id="airtel" class="com.seleniumspring.ioc.Airtel"></bean>
+	
+</beans>
