@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Creating bean1 for Student -->
+	<bean id="stu1" class="com.springcore.di.Student">
+	    <property name="id" value="1"/>
+		<property name="studentName" value="Rhutik Jagtap"/>
+	</bean>
+	
+	<!-- Creating bean2 for Student -->
+	<bean id="stu2" class="com.springcore.di.Student">
+	    <property name="id" value="2"/>
+		<property name="studentName" value="Rj"/>
+	</bean>
+
+</beans>
