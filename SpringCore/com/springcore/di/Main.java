@@ -7,9 +7,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
 	public static void main(String[] args) {
 		//setting value using setter method
-//		Student student=new Student();
-//		student.setStudentName("Rhutik Jagtap");
-//		student.displayStudentInfo();
+		//Student student=new Student();
+		//student.setStudentName("Rhutik Jagtap");
+		//student.displayStudentInfo();
 		
 		ApplicationContext context=new ClassPathXmlApplicationContext("beans2.xml");
 		System.out.println("beans2.xml loading...");
