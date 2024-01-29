@@ -11,7 +11,7 @@
 	</bean>
 	
 	<!-- Creating bean2 for Student -->
-	<bean id="stu2" class="com.springcore.di.Student">
+	<bean id="stu2" class="com.springcore.di.Student1">
 	    <property name="id" value="2"/>
 		<property name="studentName" value="Rj"/>
 	</bean>
